@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Admin UI</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" media="mediatype and|not|only (expressions)" href="admin.css">
+  <link rel="stylesheet" type="text/css" href="admin.css">
+</head>
+
+<body id="container">
+  <!-- <h1>API Call in JavaScript</h1> -->
+
+  <input type="text" placeholder="Search by name, email or role" class="child" id="search"
+    onkeyup="searchFun(), searchFun1(), searchFun2(), searchFun3()">
+  <table id="mytable" class="child">
+    <thead id="str">
+      <td># </td>
+      <td>
+        <h3>Name</h3>
+      </td>
+      <td>
+        <h3>Email</h3>
+      </td>
+      <td>
+        <h3>Role</h3>
+      </td>
+      <td>
+        <h3>Actions</h3>
+      </td>
+      
+    </thead>
+    <tbody id="userData" class="child">
+
+    </tbody>
+  </table>
+
+
+  <nav id="btn">
+    <ul class="pagination">
+      <li class="page-item">
+        <button class="page-link btn1 mx-2" id="prevButton">Previous</button>
+      </li>
+      <li class="page-item" id="nextBtn">
+        <button class="page-link btn2" id="nextButton">Next</button>
+      </li>
+    </ul>
+  </nav>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="admin.js"></script>
+</body>
+
+</html>
